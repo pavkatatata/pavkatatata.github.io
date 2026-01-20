@@ -1,1 +1,182 @@
-# pavkatatata.github.io
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me - Application Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: #0a3d62;
+            color: #fff;
+            padding: 30px 40px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin-top: 5px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        nav {
+            margin-top: 15px;
+        }
+        nav a {
+            color: #fff;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 50px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            margin-top: 0;
+            color: #0a3d62;
+        }
+        .profile {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: #ddd;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #eef2f5;
+            padding: 20px;
+            border-radius: 6px;
+        }
+        footer {
+            background: #0a3d62;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0a3d62;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .btn:hover {
+            background: #07406a;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Me</h1>
+    <p>Application Engineer</p>
+    <nav>
+        <a href="#about">За мен</a>
+        <a href="#skills">Умения</a>
+        <a href="#experience">Опит</a>
+        <a href="#contact">Контакт</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section id="about">
+        <h2>Кой съм аз</h2>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Photo">
+            <div>
+                <p>
+                    Аз съм Application Engineer с интереси в разработката, интеграцията
+                    и поддръжката на софтуерни и хардуерни решения.
+                </p>
+                <p>
+                    Работя с клиенти и екипи за превръщане на технически изисквания
+                    в работещи и ефективни приложения.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Технически умения</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Програмиране</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Python / Java / C#</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Системи</h3>
+                <ul>
+                    <li>Linux / Windows</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Инженерни умения</h3>
+                <ul>
+                    <li>Анализ на изисквания</li>
+                    <li>Техническа документация</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Професионален опит</h2>
+        <ul>
+            <li>Application Engineer – внедряване и поддръжка на системи</li>
+            <li>Работа с клиенти и технически екипи</li>
+            <li>Оптимизация и автоматизация на процеси</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Контакт</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: linkedin.com/in/yourname</p>
+        <a class="btn" href="mailto:your.email@example.com">Свържи се с мен</a>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 About Me | Application Engineer</p>
+</footer>
+
+</body>
+</html>
