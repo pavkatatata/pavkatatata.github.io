@@ -4,99 +4,49 @@
     <meta charset="UTF-8">
     <title>Опит</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <style>
-          body {
-              margin: 0;
-              font-family: Arial, Helvetica, sans-serif;
-              background-color: #f4f6f8;
-              color: #333;
-          }
-          header {
-              background: #0a3d62;
-              color: #fff;
-              padding: 30px 40px;
-          }
-          header h1 {
-              margin: 0;
-          }
-          header p {
-              margin-top: 5px;
-              font-size: 18px;
-              opacity: 0.9;
-          }
-          nav {
-              margin-top: 15px;
-          }
-          nav a {
-              color: #fff;
-              margin-right: 20px;
-              text-decoration: none;
-              font-weight: bold;
-          }
-          nav a:hover {
-              text-decoration: underline;
-          }
-          .container {
-              padding: 40px;
-              max-width: 1000px;
-              margin: auto;
-          }
-          section {
-              margin-bottom: 50px;
-              background: #fff;
-              padding: 30px;
-              border-radius: 8px;
-              box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-          }
-          section h2 {
-              margin-top: 0;
-              color: #0a3d62;
-          }
-          .profile {
-              display: flex;
-              gap: 30px;
-              align-items: center;
-              flex-wrap: wrap;
-          }
-          .profile img {
-              width: 180px;
-              height: 180px;
-              border-radius: 50%;
-              object-fit: cover;
-              background: #ddd;
-          }
-          ul {
-              padding-left: 20px;
-          }
-          .card-grid {
-              display: grid;
-              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-              gap: 20px;
-          }
-          .card {
-              background: #eef2f5;
-              padding: 20px;
-              border-radius: 6px;
-          }
-          footer {
-              background: #0a3d62;
-              color: #fff;
-              text-align: center;
-              padding: 15px;
-          }
-          .btn {
-              display: inline-block;
-              padding: 10px 20px;
-              background: #0a3d62;
-              color: #fff;
-              text-decoration: none;
-              border-radius: 4px;
-          }
-          .btn:hover {
-              background: #07406a;
-          }
-      </style>
-  </head>
+    <style>
+       body {
+    margin: 0;
+    min-height: 100vh;       /* Задължително за sticky footer */
+    display: flex;           /* Flex layout за вертикално подреждане */
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #0a3d62;
+    color: #fff;
+    padding: 30px 40px;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;                 /* Main заема свободното пространство, избутва footer долу */
+    padding: 20px;
+}
+
+footer {
+    background: #0a3d62;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    flex: 1;
+}
+        
+    </style>
+</head>
+
 <body>
 
 <header>
@@ -109,14 +59,13 @@
 
 <main>
     <h2>Какъв опит имам</h2>
-    <p>
-        По-подробна информация за моя професионален опит,
-        умения и интереси.
-    </p>
+    <p>По-подробна информация за моя професионален опит.</p>
 </main>
 
-</body>
 <footer>
-      <p>&copy; 2026 About Me | HTML & CSS</p>
+    <p>&copy; 2026 About Me | HTML & CSS</p>
 </footer>
+
+
+</body>
 </html>
