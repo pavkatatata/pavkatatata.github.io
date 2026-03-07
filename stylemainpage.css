@@ -80,7 +80,8 @@
 
 /* Dropdown container */
 .dropdown{
-    margin-left:20px;
+    margin-left:auto;
+    margin-right:10cm;
     position:relative;
 }
 
