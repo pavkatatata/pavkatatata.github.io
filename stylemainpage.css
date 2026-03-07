@@ -105,6 +105,13 @@
     border-radius:6px;
     overflow:hidden;
 }
+.dropbtn{
+    background:#ff9800;
+    color:white;
+    padding:8px 14px;
+    border-radius:8px;
+    font-weight:bold;
+}
 
 /* Links inside dropdown */
 .dropdown-content a{
