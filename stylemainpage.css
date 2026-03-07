@@ -72,6 +72,13 @@
               padding: 20px;
               border-radius: 6px;
           }
+           nav {
+    display: flex;
+}
+
+.fun-btn {
+    margin-left: auto;
+}
           footer {
               background: #0a3d62;
               color: #fff;
